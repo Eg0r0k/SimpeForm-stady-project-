@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>Invite Cards</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="alert">Copyed!</div>
+      <!--background-->
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <!--==================-->
+      <div class="card-1">
+        <div class="card-1__header">
+          <h2 class="card-1__title">Invite people</h2>
+          <p class="card-1__text">
+            All invited people will be granted access to all sites within your
+            organisation
+          </p>
+          <div class="invite">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+              <span class="lables"></span>
+            </label>
+          </div>
+        </div>
+        <div class="add-to-team">
+          <h2 class="add-to-team__sub">Add to team</h2>
+          <div class="add-to-team__copy--container">
+            <div class="add-to-team__link">
+              https://exepleelinktoshare/my-team/jid98490032
+            </div>
+            <button class="add-to-team__btn">Copy link</button>
+          </div>
+          <p class="add-to-team__rules">
+            People with organisation email will be able to join with a link.
+            <a href="#" class="add-to-team__link">Deactivate</a> if ig you don`t
+            need this.
+          </p>
+        </div>
+      </div>
+      <div class="card-2 ">
+        <div class="card-2__header">
+          <p class="card-2__title">Invite to Board</p>
+          <button class="card-2__close ">
+           
+          </button>
+        </div>
+        <div class="card-2__body">
+          <input type="email"  class="card-2__input" placeholder="email@address.com"/>
+          <h3 class="card-2__body--title"> Invite with Link</h3>
+          <p class="card-2__info">
+            Anyoane with link can view board. <a href="">Create Link</a>
+          </p>
+          <button class="card-2__send" type="submit">Send invitaiton</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
